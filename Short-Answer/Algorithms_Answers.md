@@ -3,7 +3,7 @@
 ## Exercise I
 
 a)
-    If n > 0 input size n is going to always be bigger than a by n. So at worst it'll loop over one more time and it'll do this constantly no matter how large the input which is O(1) time complexity.
+    If n > 0 input size n is going to always be bigger than a by *n so with a really big input its the operations are going to increase linearly so it can be greater than n^3. n^3/n^2 = n, O(n) time complexity.
 
 b)
     The first loop is O(n) because each operation increases linearly based on input size. The second, while loop, is also O(n) for the same reason so in total this is O(n^2) time complexity.
