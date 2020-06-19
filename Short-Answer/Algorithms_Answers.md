@@ -6,7 +6,7 @@ a)
     If n > 0 input size n is going to always be bigger than a by *n so with a really big input its the operations are going to increase linearly so it can be greater than n^3. n^3/n^2 = n, O(n) time complexity.
 
 b)
-    The first loop is O(n) because each operation increases linearly based on input size. The second, while loop, is also O(n) for the same reason so in total this is O(n^2) time complexity.
+    The first loop is O(n) because each operation increases linearly based on input size. The second, while loop, is O(log(n)) because it talks half of the operations to run. For this reason its total this is O(n log(n)) time complexity.
 
 c)
     The function is being called recursively n times before reaching the base case so its O(n).
