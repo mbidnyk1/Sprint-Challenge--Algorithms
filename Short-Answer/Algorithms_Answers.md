@@ -13,4 +13,15 @@ c)
 
 ## Exercise II
 
+while n > 1:
+  start at middle building
+  drop egg
+  if egg is broken:
+    remove all values > n
+  else:
+    remove all values =< n
+  n/2,repeat above code
 
+return n
+
+time complexityL O(log n) because it's a binary search each call halves the input.
